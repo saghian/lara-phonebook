@@ -1,4 +1,4 @@
-@extends('dashboard.layouts.master')
+@extends('panel.layouts.master')
 
 @section('content')
     <h4 class="py-3 breadcrumb-wrapper mb-4">داشبورد</h4>

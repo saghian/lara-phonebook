@@ -1,4 +1,4 @@
-@extends('dashboard.layouts.master')
+@extends('panel.layouts.master')
 
 {{-- 
 Class:
@@ -166,7 +166,7 @@ Div: container-xxl flex-grow-1 container-p-y
 
 @section('script')
     <!-- Page JS -->
-    {{-- <script src="{{ asset('/dashboard/js/form-layouts.js') }}"></script> --}}
+    {{-- <script src="{{ asset('/panel/js/form-layouts.js') }}"></script> --}}
 
     var flatpickrDate = document.querySelector("#multicol-birthdate");
 

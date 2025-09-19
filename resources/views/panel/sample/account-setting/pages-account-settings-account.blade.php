@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" class="light-style layout-navbar-fixed layout-menu-fixed" dir="rtl" data-theme="theme-default"
-    data-assets-path="/dashboard/" data-template="vertical-menu-template-starter">
+    data-assets-path="/panel/" data-template="vertical-menu-template-starter">
 
 <head>
     <meta charset="utf-8">
@@ -12,41 +12,41 @@
     <meta name="description" content="">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('/dashboard/img/favicon/favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/panel/img/favicon/favicon.ico') }}">
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/fonts/boxicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/fonts/boxicons.css') }}">
 
     <!-- <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" /> -->
     <!-- <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" /> -->
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="/dashboard/vendor/css/rtl/core.css" class="template-customizer-core-css">
-    <link rel="stylesheet" href="/dashboard/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="/panel/vendor/css/rtl/core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="/panel/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css">
 
-    {{-- <link rel="stylesheet" href="{{ asset('/dashboard/vendor/css/rtl/core.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('/dashboard/vendor/css/rtl/theme-default.css') }}" "> --}}
-    <link rel="stylesheet" href="{{ asset('/dashboard/css/demo.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/css/rtl/rtl.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('/panel/vendor/css/rtl/core.css') }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('/panel/vendor/css/rtl/theme-default.css') }}" "> --}}
+    <link rel="stylesheet" href="{{ asset('/panel/css/demo.css') }}">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/css/rtl/rtl.css') }}">
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/typeahead-js/typeahead.css') }} ">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/select2/select2.css') }} ">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/formvalidation/dist/css/formValidation.min.css') }} ">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/animate-css/animate.css') }} ">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/sweetalert2/sweetalert2.css') }} ">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/typeahead-js/typeahead.css') }} ">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/select2/select2.css') }} ">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/formvalidation/dist/css/formValidation.min.css') }} ">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/animate-css/animate.css') }} ">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/sweetalert2/sweetalert2.css') }} ">
     @yield('style')
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="{{ asset('/dashboard/vendor/js/helpers.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/helpers.js') }}"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="{{ asset('/dashboard/vendor/js/template-customizer.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/template-customizer.js') }}"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="{{ asset('/dashboard/js/config.js') }}"></script>
+    <script src="{{ asset('/panel/js/config.js') }}"></script>
 </head>
 
 <body>
@@ -108,11 +108,11 @@
                 <div class="menu-inner-shadow"></div>
 
                 <ul class="menu-inner py-1">
-                    <!-- Dashboards -->
+                    <!-- panels -->
                     <li class="menu-item">
                         <a href="javascript:void(0);" class="menu-link menu-toggle">
                             <i class="menu-icon tf-icons bx bx-home-circle"></i>
-                            <div data-i18n="Dashboards">داشبوردها</div>
+                            <div data-i18n="panels">داشبوردها</div>
                         </a>
                         <ul class="menu-sub">
                             <li class="menu-item">
@@ -121,7 +121,7 @@
                                 </a>
                             </li>
                             <li class="menu-item">
-                                <a href="dashboards-ecommerce.html" class="menu-link">
+                                <a href="panels-ecommerce.html" class="menu-link">
                                     <div data-i18n="eCommerce">تجارت الکترونیک</div>
                                 </a>
                             </li>
@@ -1801,35 +1801,35 @@
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="{{ asset('/dashboard/vendor/libs/jquery/jquery.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/popper/popper.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/jquery/jquery.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/popper/popper.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
 
-    <script src="{{ asset('/dashboard/vendor/libs/hammer/hammer.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/hammer/hammer.js') }}"></script>
 
-    <script src="{{ asset('/dashboard/vendor/libs/i18n/i18n.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/typeahead-js/typeahead.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/i18n/i18n.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/typeahead-js/typeahead.js') }}"></script>
 
-    <script src="{{ asset('/dashboard/vendor/js/menu.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/menu.js') }}"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
-    <script src="{{ asset('/dashboard/vendor/libs/select2/select2.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/select2/i18n/fa.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/formvalidation/dist/js/FormValidation.min.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/cleavejs/cleave.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/cleavejs/cleave-phone.js') }} "></script>
-    <script src="{{ asset('/dashboard/vendor/libs/sweetalert2/sweetalert2.js') }} "></script>
+    <script src="{{ asset('/panel/vendor/libs/select2/select2.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/select2/i18n/fa.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/formvalidation/dist/js/FormValidation.min.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/formvalidation/dist/js/plugins/Bootstrap5.min.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/formvalidation/dist/js/plugins/AutoFocus.min.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/cleavejs/cleave.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/cleavejs/cleave-phone.js') }} "></script>
+    <script src="{{ asset('/panel/vendor/libs/sweetalert2/sweetalert2.js') }} "></script>
 
     <!-- Main JS -->
-    <script src="{{ asset('/dashboard/js/main.js') }}"></script>
+    <script src="{{ asset('/panel/js/main.js') }}"></script>
 
     <!-- Page JS -->
     {{-- <script src="../../assets/js/pages-account-settings-account.js"></script> --}}
-    <script src="{{ asset('/dashboard/js/pages-account-settings-account.js') }}"></script>
+    <script src="{{ asset('/panel/js/pages-account-settings-account.js') }}"></script>
 </body>
 
 </html>

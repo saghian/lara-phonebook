@@ -64,11 +64,11 @@ C8.45300462,16.887125 10.8856023,19.3197227 13.8863636,19.3197227 C16.887125,19.
                 <div data-i18n="Page 1">صفحه نخست</div>
             </a>
         </li>
-        <!-- Dashboards -->
+        <!-- panels -->
         <li class="menu-item active open">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-category"></i>
-                <div data-i18n="Dashboards">وبلاگ</div>
+                <div data-i18n="panels">وبلاگ</div>
             </a>
             <ul class="menu-sub">
                 <li class="menu-item active">
@@ -119,11 +119,11 @@ C8.45300462,16.887125 10.8856023,19.3197227 13.8863636,19.3197227 C16.887125,19.
 
 
 
-        <!-- Dashboards -->
+        <!-- panels -->
         <li class="menu-item active open">
             <a href="javascript:void(0);" class="menu-link menu-toggle">
                 <i class="menu-icon tf-icons bx bx-cog"></i>
-                <div data-i18n="Dashboards">تنظیمات</div>
+                <div data-i18n="panels">تنظیمات</div>
             </a>
             <ul class="menu-sub">
                 <li class="menu-item active">

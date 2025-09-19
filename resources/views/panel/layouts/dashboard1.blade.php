@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="fa" class="light-style layout-navbar-fixed layout-menu-fixed" dir="rtl" data-theme="theme-default"
-    data-assets-path="/dashboard/" data-template="vertical-menu-template-starter">
+    data-assets-path="/panel/" data-template="vertical-menu-template-starter">
 
 <head>
     <meta charset="utf-8">
@@ -12,36 +12,36 @@
     <meta name="description" content="">
 
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ asset('/dashboard/img/favicon/favicon.ico') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/panel/img/favicon/favicon.ico') }}">
 
     <!-- Icons. Uncomment required icon fonts -->
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/fonts/boxicons.css') }}">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/fonts/boxicons.css') }}">
 
     <!-- <link rel="stylesheet" href="../../assets/vendor/fonts/fontawesome.css" /> -->
     <!-- <link rel="stylesheet" href="../../assets/vendor/fonts/flag-icons.css" /> -->
 
     <!-- Core CSS -->
-    <link rel="stylesheet" href="/dashboard/vendor/css/rtl/core.css" class="template-customizer-core-css">
-    <link rel="stylesheet" href="/dashboard/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css">
+    <link rel="stylesheet" href="/panel/vendor/css/rtl/core.css" class="template-customizer-core-css">
+    <link rel="stylesheet" href="/panel/vendor/css/rtl/theme-default.css" class="template-customizer-theme-css">
 
-    {{-- <link rel="stylesheet" href="{{ asset('/dashboard/vendor/css/rtl/core.css') }}"> --}}
-    {{-- <link rel="stylesheet" href="{{ asset('/dashboard/vendor/css/rtl/theme-default.css') }}" "> --}}
-    <link rel="stylesheet" href="{{ asset('/dashboard/css/demo.css') }}">
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/css/rtl/rtl.css') }}">
+    {{-- <link rel="stylesheet" href="{{ asset('/panel/vendor/css/rtl/core.css') }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset('/panel/vendor/css/rtl/theme-default.css') }}" "> --}}
+    <link rel="stylesheet" href="{{ asset('/panel/css/demo.css') }}">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/css/rtl/rtl.css') }}">
 
     <!-- Vendors CSS -->
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}">
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/perfect-scrollbar/perfect-scrollbar.css') }}">
 
     <!-- Page CSS -->
 
     <!-- Helpers -->
-    <script src="{{ asset('/dashboard/vendor/js/helpers.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/helpers.js') }}"></script>
 
     <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
     <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
-    <script src="{{ asset('/dashboard/vendor/js/template-customizer.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/template-customizer.js') }}"></script>
     <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
-    <script src="{{ asset('/dashboard/js/config.js') }}"></script>
+    <script src="{{ asset('/panel/js/config.js') }}"></script>
 </head>
 
 <body>
@@ -153,7 +153,7 @@
                                     <a class="nav-link dropdown-toggle hide-arrow" href="javascript:void(0);"
                                         data-bs-toggle="dropdown">
                                         <div class="avatar avatar-online">
-                                            <img src="{{ asset('/dashboard/img/avatars/1.png') }}" alt
+                                            <img src="{{ asset('/panel/img/avatars/1.png') }}" alt
                                                 class="rounded-circle">
                                         </div>
                                     </a>
@@ -163,7 +163,7 @@
                                                 <div class="d-flex">
                                                     <div class="flex-shrink-0 me-3">
                                                         <div class="avatar avatar-online">
-                                                            <img src="{{ asset('/dashboard/img/avatars/1.png') }}" alt
+                                                            <img src="{{ asset('/panel/img/avatars/1.png') }}" alt
                                                                 class="rounded-circle">
                                                         </div>
                                                     </div>
@@ -266,20 +266,20 @@
 
     <!-- Core JS -->
     <!-- build:js assets/vendor/js/core.js -->
-    <script src="{{ asset('/dashboard/vendor/libs/jquery/jquery.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/popper/popper.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/js/bootstrap.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/jquery/jquery.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/popper/popper.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/bootstrap.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/perfect-scrollbar/perfect-scrollbar.js') }}"></script>
 
-    <script src="{{ asset('/dashboard/vendor/libs/hammer/hammer.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/hammer/hammer.js') }}"></script>
 
-    <script src="{{ asset('/dashboard/vendor/js/menu.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/js/menu.js') }}"></script>
     <!-- endbuild -->
 
     <!-- Vendors JS -->
 
     <!-- Main JS -->
-    <script src="{{ asset('/dashboard/js/main.js') }}"></script>
+    <script src="{{ asset('/panel/js/main.js') }}"></script>
 
     <!-- Page JS -->
 </body>

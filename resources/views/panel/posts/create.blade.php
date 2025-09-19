@@ -1,4 +1,4 @@
-@extends('dashboard.layouts.master')
+@extends('panel.layouts.master')
 
 {{-- 
 Class:
@@ -84,19 +84,19 @@ Div: container-xxl flex-grow-1 container-p-y
 @endsection
 
 @section('css-libs')
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/quill/typography.css') }}" />
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/quill/katex.css') }}" />
-    <link rel="stylesheet" href="{{ asset('/dashboard/vendor/libs/quill/editor.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/quill/typography.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/quill/katex.css') }}" />
+    <link rel="stylesheet" href="{{ asset('/panel/vendor/libs/quill/editor.css') }}" />
 @endsection
 
 @section('js-libs')
-    <script src="{{ asset('/dashboard/vendor/libs/quill/katex.js') }}"></script>
-    <script src="{{ asset('/dashboard/vendor/libs/quill/quill.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/quill/katex.js') }}"></script>
+    <script src="{{ asset('/panel/vendor/libs/quill/quill.js') }}"></script>
 @endsection
 
 @section('script')
     <!-- Page JS -->
-    {{-- <script src="{{ asset('/dashboard/js/form-layouts.js') }}"></script> --}}
+    {{-- <script src="{{ asset('/panel/js/form-layouts.js') }}"></script> --}}
 
     var flatpickrDate = document.querySelector("#multicol-birthdate");
     flatpickrDate.flatpickr({
